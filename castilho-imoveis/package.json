@@ -1,0 +1,17 @@
+{
+  "name": "castilho-imoveis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Site imobiliário do Corretor Castilho (Araçariguama-SP) — HTML, CSS e JavaScript puros, sem dependências.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs && node --test tests/*.test.mjs",
+    "frames": "node scripts/extrair-frames.mjs",
+    "fotos": "node scripts/otimizar-fotos.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
